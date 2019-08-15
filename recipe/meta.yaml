@@ -61,4 +61,6 @@ about:
 
 extra:
   recipe-maintainers:
+    - deadsnakes-issues-bot
     - nicoddemus
+    - xmnlab
