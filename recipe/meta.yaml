@@ -28,7 +28,7 @@ requirements:
   run:
     - aspy.yaml
     - cached-property
-    - cfgv >=1.0.0
+    - cfgv >=2.0.0
     - identify >=1.0.0
     - importlib_metadata
     - importlib_resources  # [py<37]
