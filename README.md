@@ -199,5 +199,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@deadsnakes-issues-bot](https://github.com/deadsnakes-issues-bot/)
 * [@nicoddemus](https://github.com/nicoddemus/)
+* [@xmnlab](https://github.com/xmnlab/)
 
