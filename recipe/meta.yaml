@@ -27,7 +27,6 @@ requirements:
     - python
 
   run:
-    - aspy.yaml
     - cfgv >=2.0.0
     - identify >=1.0.0
     - importlib_metadata  # [py<38]
