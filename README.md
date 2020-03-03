@@ -111,6 +111,7 @@ Current release info
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-pre--commit-green.svg)](https://anaconda.org/conda-forge/pre-commit) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pre-commit.svg)](https://anaconda.org/conda-forge/pre-commit) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pre-commit.svg)](https://anaconda.org/conda-forge/pre-commit) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pre-commit.svg)](https://anaconda.org/conda-forge/pre-commit) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pre_commit-green.svg)](https://anaconda.org/conda-forge/pre_commit) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pre_commit.svg)](https://anaconda.org/conda-forge/pre_commit) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pre_commit.svg)](https://anaconda.org/conda-forge/pre_commit) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pre_commit.svg)](https://anaconda.org/conda-forge/pre_commit) |
 
 Installing pre-commit
 =====================
@@ -121,10 +122,10 @@ Installing `pre-commit` from the `conda-forge` channel can be achieved by adding
 conda config --add channels conda-forge
 ```
 
-Once the `conda-forge` channel has been enabled, `pre-commit` can be installed with:
+Once the `conda-forge` channel has been enabled, `pre-commit, pre_commit` can be installed with:
 
 ```
-conda install pre-commit
+conda install pre-commit pre_commit
 ```
 
 It is possible to list all of the versions of `pre-commit` available on your platform with:
