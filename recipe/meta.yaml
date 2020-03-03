@@ -1,7 +1,6 @@
 {% set name = "pre-commit" %}
-{% set version = "2.1.0" %}
-{% set hash_type = "sha256" %}
-{% set hash = "62c09f83cbac0904c9aff0a6412f5db2d10e1756fa6c1fc05eeefa15b677fb80" %}
+{% set version = "2.1.1" %}
+{% set hash = "0b80e45b4e001f45bade0f1cc2d891eb810de154f1eb703a1f77ac060a9a07ae" %}
 
 package:
   name: {{ name }}
@@ -10,12 +9,12 @@ package:
 source:
   fn: {{ name }}-v{{ version }}.tar.gz
   url: https://github.com/pre-commit/pre-commit/archive/v{{ version }}.tar.gz
-  {{ hash_type }}: {{ hash }}
+  sha256: {{ hash }}
 
 build:
-  skip: True  # [py<36]
+  skip: true  # [py<36]
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
     - pre-commit = pre_commit.main:main
     - pre-commit-validate-config = pre_commit.clientlib:validate_config_main
@@ -51,7 +50,7 @@ about:
   home: http://pre-commit.com/
   license: MIT
   license_file: LICENSE
-  summary: 'A framework for managing and maintaining multi-language pre-commit hooks.'
+  summary: A framework for managing and maintaining multi-language pre-commit hooks.
   license_family: MIT
   dev_url: https://github.com/pre-commit/pre-commit
   doc_url: https://github.com/pre-commit/pre-commit
