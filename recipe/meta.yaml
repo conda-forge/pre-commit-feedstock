@@ -35,11 +35,14 @@ outputs:
         - toml
         - virtualenv >=15.2
     test:
+      requires:
+        - pip
       imports:
         - pre_commit
         - pre_commit.commands
         - pre_commit.languages
       commands:
+        - pip check
         - pre-commit --help
         - pre-commit-validate-config --help
         - pre-commit-validate-manifest --help
