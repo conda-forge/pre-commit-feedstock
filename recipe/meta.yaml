@@ -1,4 +1,4 @@
-{% set version = "2.1.1" %}
+{% set version = "2.2.0" %}
 
 package:
   name: pre-commit
@@ -6,11 +6,11 @@ package:
 
 source:
   url: https://github.com/pre-commit/pre-commit/archive/v{{ version }}.tar.gz
-  sha256: 0b80e45b4e001f45bade0f1cc2d891eb810de154f1eb703a1f77ac060a9a07ae
+  sha256: 53a5d39e8b2063a004ecdabd4b459ae826cfe47eca449720e4fdde06a7d43cc0
 
 build:
   number: 0
-  skip: True  # [py<36]
+  skip: true  # [py<36]
   entry_points:
     - pre-commit = pre_commit.main:main
     - pre-commit-validate-config = pre_commit.clientlib:validate_config_main
@@ -61,7 +61,7 @@ about:
   home: http://pre-commit.com/
   license: MIT
   license_file: LICENSE
-  summary: 'A framework for managing and maintaining multi-language pre-commit hooks.'
+  summary: A framework for managing and maintaining multi-language pre-commit hooks.
   license_family: MIT
   dev_url: https://github.com/pre-commit/pre-commit
   doc_url: https://github.com/pre-commit/pre-commit
