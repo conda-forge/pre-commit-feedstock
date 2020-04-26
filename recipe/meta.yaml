@@ -9,6 +9,7 @@ source:
   sha256: cbe534c57d0e0e17b0a739d71bb0d33a3bc295e65d6d125860bcfc7053abd645
 
 build:
+  noarch: python
   number: 0
   skip: true  # [py<36]
   entry_points:
