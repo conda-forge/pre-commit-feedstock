@@ -33,7 +33,7 @@ outputs:
         - python
         - pyyaml >=5.1
         - toml
-        - virtualenv >=15.2
+        - virtualenv >=20.0.8
     test:
       requires:
         - pip
