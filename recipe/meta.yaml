@@ -9,7 +9,7 @@ source:
   sha256: 979fc6ca62b24262de370318825de6820c09e5bdc7f8ba0c8091bd3060b0c990
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py<36]
   entry_points:
     - pre-commit = pre_commit.main:main
