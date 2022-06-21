@@ -9,8 +9,8 @@ source:
   sha256: 33165e3cd4dcb68742d69b1192a204c69830d143c82e5d9a255d94027b230156
 
 build:
-  number: 0
-  skip: true  # [py<37]
+  number: 1
+  noarch: python
   entry_points:
     - pre-commit = pre_commit.main:main
     - pre-commit-validate-config = pre_commit.clientlib:validate_config_main
@@ -30,8 +30,7 @@ outputs:
       run:
         - cfgv >=2.0.0
         - identify >=1.0.0
-        - importlib_metadata  # [py<38]
-        - importlib_resources <5.3  # [py<37]
+        - importlib_metadata
         - nodeenv >=0.11.1
         - python >=3.7
         - pyyaml >=5.1
