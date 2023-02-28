@@ -1,11 +1,11 @@
-About pre-commit
-================
+About pre-commit-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pre-commit-feedstock/blob/main/LICENSE.txt)
 
 Home: http://pre-commit.com/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pre-commit-feedstock/blob/main/LICENSE.txt)
 
 Summary: A framework for managing and maintaining multi-language pre-commit hooks.
 
