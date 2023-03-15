@@ -9,8 +9,8 @@ source:
   sha256: 6d3189fcb39dc97977d9f705b8f3bb570a613ef1e9cd598d958a82c503fda5a3
 
 build:
-  number: 0
-  skip: true  # [py<37]
+  number: 1
+  noarch: python
   entry_points:
     - pre-commit = pre_commit.main:main
     - pre-commit-validate-config = pre_commit.clientlib:validate_config_main
@@ -26,7 +26,7 @@ outputs:
         - cross-python_{{ target_platform }}     # [build_platform != target_platform]
       host:
         - pip
-        - python
+        - python >=3.8
       run:
         - cfgv >=2.0.0
         - identify >=1.0.0
