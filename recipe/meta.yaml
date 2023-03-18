@@ -1,4 +1,4 @@
-{% set version = "3.1.1" %}
+{% set version = "3.2.0" %}
 
 package:
   name: pre-commit
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://github.com/pre-commit/pre-commit/archive/v{{ version }}.tar.gz
-  sha256: 6d3189fcb39dc97977d9f705b8f3bb570a613ef1e9cd598d958a82c503fda5a3
+  sha256: 5c4b29667e824926f63093b1d8bb85fead65aad477c9b6b63dba19ed320d7c6e
 
 build:
-  number: 1
+  number: 0
   noarch: python
   entry_points:
     - pre-commit = pre_commit.main:main
@@ -33,7 +33,7 @@ outputs:
         - nodeenv >=0.11.1
         - python >=3.8
         - pyyaml >=5.1
-        - virtualenv >=20.0.8
+        - virtualenv >=20.10.0
     test:
       requires:
         - pip
