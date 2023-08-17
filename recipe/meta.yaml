@@ -9,7 +9,7 @@ source:
   sha256: 9d22f9c60b28113b65cc1d96884a609ed98b762222cc8175acb6ffc06221554a
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - pre-commit = pre_commit.main:main
@@ -29,7 +29,7 @@ outputs:
         - python >=3.8
       run:
         - cfgv >=2.0.0
-        - identify >=1.0.0
+        - identify >=2.5.20
         - nodeenv >=0.11.1
         - python >=3.8
         - pyyaml >=5.1
