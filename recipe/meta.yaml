@@ -9,12 +9,10 @@ source:
   sha256: 65d63b57ddec920b09ffdf09536a480d6883eb5069eb295daab6d3fe151e34d3
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - pre-commit = pre_commit.main:main
-    - pre-commit-validate-config = pre_commit.clientlib:validate_config_main
-    - pre-commit-validate-manifest = pre_commit.clientlib:validate_manifest_main
 
 outputs:
   - name: pre-commit
