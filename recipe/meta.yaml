@@ -1,4 +1,4 @@
-{% set version = "3.5.0" %}
+{% set version = "3.6.0" %}
 
 package:
   name: pre-commit
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/pre-commit/pre-commit/archive/v{{ version }}.tar.gz
-  sha256: a86e7a95506120923e69082243a9a3e26e2f6e54b98cadcb05d02f37450edb5b
+  sha256: 6d5c0ad36780cd21141d95c322aacc79b5c2c972e3d6fb70008180524263f56e
 
 build:
   number: 0
@@ -24,12 +24,12 @@ outputs:
         - cross-python_{{ target_platform }}     # [build_platform != target_platform]
       host:
         - pip
-        - python >=3.8
+        - python >=3.9
       run:
         - cfgv >=2.0.0
         - identify >=1.0.0
         - nodeenv >=0.11.1
-        - python >=3.8
+        - python >=3.9
         - pyyaml >=5.1
         - virtualenv >=20.10.0
     test:
