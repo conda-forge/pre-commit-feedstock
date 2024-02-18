@@ -1,4 +1,4 @@
-{% set version = "3.6.1" %}
+{% set version = "3.6.2" %}
 
 package:
   name: pre-commit
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/pre-commit/pre-commit/archive/v{{ version }}.tar.gz
-  sha256: 030bff389187e9444def59f9787411614b34853fbbf587bdfc8dfec110909883
+  sha256: 0d57327523b671524fe0ee9d6c9fe53e1e2790dee3575a0c39f546c310e481d5
 
 build:
   number: 0
