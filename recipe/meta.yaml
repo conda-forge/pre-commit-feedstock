@@ -25,6 +25,7 @@ outputs:
       host:
         - pip
         - python >=3.9
+        - setuptools
       run:
         - cfgv >=2.0.0
         - identify >=1.0.0
