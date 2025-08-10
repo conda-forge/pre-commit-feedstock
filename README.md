@@ -32,7 +32,7 @@ Current release info
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-pre--commit-green.svg)](https://anaconda.org/conda-forge/pre-commit) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pre-commit.svg)](https://anaconda.org/conda-forge/pre-commit) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pre-commit.svg)](https://anaconda.org/conda-forge/pre-commit) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pre-commit.svg)](https://anaconda.org/conda-forge/pre-commit) |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-pre_commit-green.svg)](https://anaconda.org/conda-forge/pre_commit) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pre_commit.svg)](https://anaconda.org/conda-forge/pre_commit) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pre_commit.svg)](https://anaconda.org/conda-forge/pre_commit) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pre_commit.svg)](https://anaconda.org/conda-forge/pre_commit) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pre__commit-green.svg)](https://anaconda.org/conda-forge/pre_commit) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pre_commit.svg)](https://anaconda.org/conda-forge/pre_commit) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pre_commit.svg)](https://anaconda.org/conda-forge/pre_commit) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pre_commit.svg)](https://anaconda.org/conda-forge/pre_commit) |
 
 Installing pre-commit
 =====================
