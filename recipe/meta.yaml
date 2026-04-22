@@ -1,4 +1,4 @@
-{% set version = "4.5.1" %}
+{% set version = "4.6.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/pre-commit/pre-commit/archive/v{{ version }}.tar.gz
-  sha256: ddfbb07ab492c30086af097c8346d8c4d0fc2fd3d5c19129e2df86c4db9e4aa9
+  sha256: f1a264fb2e515007a5aa4205db1c501e6959697c02f3d024d5d7bf2261f9fde8
 
 build:
   number: 0
